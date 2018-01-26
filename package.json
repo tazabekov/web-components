@@ -1,0 +1,24 @@
+{
+  "name": "web-components",
+  "version": "0.0.1",
+  "description": "Catalog of web components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tazabekov/web-components.git"
+  },
+  "author": "Gizzat Tazabekov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tazabekov/web-components/issues"
+  },
+  "homepage": "https://github.com/tazabekov/web-components#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.2",
+    "lit-html": "^0.8.0"
+  }
+}
