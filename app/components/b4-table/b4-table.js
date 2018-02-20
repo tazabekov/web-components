@@ -7,7 +7,8 @@ export default class B4Table extends HTMLElement {
         this.counterValue = 3;
         this.users = [
             {id: 1, email: "gizzat.tazabekov@c3iot.com", fname: "Gizzat", lname: "Tazabekov"},
-            {id: 2, email: "juan.castaneda@c3iot.com", fname: "Juan", lname: "Castañeda"}
+            {id: 2, email: "juan.castaneda@c3iot.com", fname: "Juan", lname: "Castañeda"},
+            {id: 3, email: "matt.alexander@c3iot.com", fname: "Matt", lname: "Alexander"}
         ];
     }
 
