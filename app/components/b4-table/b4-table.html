@@ -12,14 +12,14 @@
     <tbody>
     ${this.users.map((u, i) => html`
         <tr>
-            <th scope="row">${u.id}</th>
+            <td scope="row">${u.id}</td>
             <td>${u.email}</td>
             <td>${u.fname}</td>
             <td>${u.lname}</td>
         </tr>
     `)}
     <tr>
-        <th scope="row">hello(${this.counterValue})</th>
+        <td>hello(${this.counterValue})</td>
         <td>gizzat.tazabekov@c3iot.com</td>
         <td>Gizzat</td>
         <td>Tazabekov</td>
